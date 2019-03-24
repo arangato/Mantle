@@ -654,10 +654,11 @@
 			};
 			buildConfigurationList = D042FC3515F72B23004E8054 /* Build configuration list for PBXProject "Mantle" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D042FC3015F72B23004E8054;
 			productRefGroup = D042FC3D15F72B23004E8054 /* Products */;
@@ -816,6 +817,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4831777619600906BF7 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -833,6 +835,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4851777619600906BF7 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -910,6 +913,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4841777619600906BF7 /* Profile.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -955,6 +959,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D094E4861777619600906BF7 /* Test.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
